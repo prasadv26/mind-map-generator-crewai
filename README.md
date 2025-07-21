@@ -31,36 +31,9 @@ This is ideal for:
 
 ## 🧩 Architecture
 
-+---------------------------+
-| Input Topic or Text |
-+------------+--------------+
-|
-v
-+---------------------------+
-| 🧠 Concept Extractor Agent |
-+---------------------------+
-|
-v
-+---------------------------+
-| 🪜 Hierarchy Builder Agent |
-+---------------------------+
-|
-v
-+---------------------------+
-| 🧾 JSON Formatter Agent |
-+---------------------------+
-|
-v
-+---------------------------+
-| 🖼 Diagram Generator Agent |
-| (Graphviz PNG renderer) |
-+---------------------------+
 
-yaml
-Copy
-Edit
+| Input Topic or Text -> 🧠 Concept Extractor Agent -> 🪜 Hierarchy Builder Agent -> 🧾 JSON Formatter Agent -> 🖼 Diagram Generator Agent -> (Graphviz PNG renderer)
 
----
 
 ## 📦 Output
 
